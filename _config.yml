@@ -1,0 +1,97 @@
+# SITE CONFIGURATION
+#baseurl: "/fengzhichu-theme" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
+baseurl: "" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
+url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
+#imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
+#imageurl: "img/sample_feature_img.png" #"https://unsplash.it/2600/500?random"
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: 1st Florida Security Workshop
+  #avatar: avatar.png
+  hometitle: Welcome #display on navigation menu.
+  yoursitetitle: 1st Florida Security Workshop
+  gravatar: # Email MD5 hash
+  description: "First Florida Security Workshop" # used by search engines
+  visiblewords: 300
+  # Header and footer text
+  header_text: >
+     First Florida Security Workshop
+
+  header_text_feature_image: img/usf_bulls1.jpg
+#  place_holder_image: img/sample_feature_img.png
+  place_holder_image: img/usf_bulls1.jpg
+  footer_text: >
+   <a href="http://www.arguslab.org/">First Florida Security Workshop</a>
+
+  # Icons
+  rss: false
+  email_address:  # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github:
+  weibo: 
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest: 
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+#  str_follow_on: "Follow on"
+  str_follow_on:
+#  str_rss_follow: "Follow RSS feed"
+  str_rss_follow:
+#  str_email: "Email"
+  str_email:
+  #str_next: "Next"
+  #str_prev: "Prev"
+#  str_continue_reading: "Continue Reading..."
+  str_continue_reading:
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+#enforce_ssl: "fengzhichu.com"
+enforce_ssl:
+paginate: 5
+paginate_path: "blog/page:num"
+permalink: blog/:title/ 
+
+# Posted in ... with ...
+sechby: 
+  category:   #in
+  tag:   #with
+
+# BUILD SETTINGS
+markdown: redcarpet
+highlighter: pygments.rb
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+#gems:
+#  - jekyll-paginate
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
