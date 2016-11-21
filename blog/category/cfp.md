@@ -4,7 +4,8 @@ title: Call for Participation
 order: 2
 permalink: /CFP/
 ---
-#Call for Participation
+## Call for Participation
+
 This workshop brings together researchers and practitioners in 
 security-related fields across Florida and the neighboring area. 
 The goal of this workshop is to provide a regular forum for presenting 
